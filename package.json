@@ -1,0 +1,25 @@
+{
+  "name": "app-todo",
+  "version": "1.0.0",
+  "description": "base de construccion de proyecto weback",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve --config webpack.config.js --open --port=8080"
+  },
+  "author": "Marckux",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.1",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  }
+}
